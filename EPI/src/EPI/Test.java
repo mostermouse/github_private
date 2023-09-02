@@ -7,9 +7,9 @@ class A {
 class B extends A{
 	B(int a){System.out.printf("%d",a);}
 }
-class C {
+class C extends B{
 	C(int a){
-		
+		super(a/10);
 		System.out.printf("%d",a);
 	}
 } 
